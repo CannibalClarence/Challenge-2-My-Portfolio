@@ -7,6 +7,7 @@ Build a porfolio that meets all of the acceptance criteria
 HTML, CSS
 
 ## Website
+https://cannibalclarence.github.io/challenge-2-my-portfolio/
 
 ## Screenshot
 ![Web capture_3-4-2022_133013_](https://user-images.githubusercontent.com/100390351/161447251-8bdfbe57-eeb3-4fd5-81cc-cbc090be9c31.jpeg)
