@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /* nav bar */
 
@@ -57,7 +60,6 @@
     width: 100%;
      z-index: -1;
     opacity: .8;
-    background-attachment: fixed;
 }
 .main {
     display: flex;
@@ -148,7 +150,7 @@
 /* Portfolio section */
 #portfolio {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
     padding: 20px;
@@ -167,6 +169,7 @@
     display: flex;
 }
 .gallery img {
+    flex-wrap: wrap;
     width: 360px;
     height: 240px;
     margin: 10px;
@@ -177,11 +180,11 @@
     color: black;
     box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white; 
     padding: 5px 5px;
-    background-color: transparent;
-    border: 10px solid white;
+    border: 2px solid white;
     color: white;
     outline: none;
     transition: .2s ease;
+    transform: scale(1.1);
 }
 
 /* Contact section  */
@@ -215,7 +218,7 @@
     box-sizing: border-box;
     align-items: center;
     margin: 20px 0px;
-    z-index: 999;
+    
 }
 .input {
     padding: 12px;
@@ -223,8 +226,9 @@
     width: 30%;
     border: none;
     outline: none;
-    z-index: 999;
     box-shadow: 0 0 5px rgba(245, 241, 181, 0.5), 0 0 10px rgba(245, 241, 181, 0.5), 0 0 15px white;
+    border-radius: 10px;
+    z-index: 1;
 }
 #send {
     padding: 10px;
@@ -232,6 +236,7 @@
     margin: 40px;
     border: none;
     outline: none;
+    z-index: 1;
 }
 #msg {
     width: 20%;
@@ -245,9 +250,9 @@
 #box {
     box-shadow: 0 0 5px rgba(245, 241, 181, 0.5), 0 0 10px rgba(245, 241, 181, 0.5), 0 0 15px white;
     z-index: 100;
+    border-radius: 4px
 }
 #send:hover {
     cursor:pointer;
     box-shadow: 0 0 25px rgba(245, 241, 181, 0.5);
-
 }
