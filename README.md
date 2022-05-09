@@ -25,7 +25,7 @@ https://cannibalclarence.github.io/challenge-2-my-portfolio/
   Screen shot looks funny because I have Backround-attchments Fixed so its hard to take a proper screen shot.
   </li>
   <li>
-  I had a hard time with the meadia query so any and all feedback is great and needed. But I feel I did accomplish what I was asked to do.
+  I had a hard time with the media query so any and all feedback is great and needed. But I feel I did accomplish what I was asked to do.
   </li>
   <li> 
   All of my starter commit messages dissapeard since i had a problem where i was sending everything to the wrong repository. I did not notice until i was almost       finished with the code, so i had to create a new repo and sent all my code to that one.
